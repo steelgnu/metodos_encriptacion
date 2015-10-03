@@ -1,0 +1,752 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+{\info 
+{\title {\comment Metodos_encriptar  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1 \par
+}}Metodos_encriptar}
+{\comment Generado porDoxgyen. }
+{\creatim \yr2015\mo10\dy3\hr5\min9\sec8}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt TITLE}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version 1\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt CREATEDATE}}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Tabla de contenidos\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indice de namespaces\par \pard\plain 
+{\tc \v Indice de namespaces}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Paquetes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqu\'ED van los paquetes con una breve descripci\'F3n (si et\'E1 disponible):}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Seg_Inf} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice de clases\par \pard\plain 
+{\tc \v \'CDndice de clases}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de clases\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Lista de las clases, estructuras, uniones e interfaces con una breve descripci\'F3n:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Seg_Inf.MainClass} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de namespaces\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia del Namespace Seg_Inf\par \pard\plain 
+{\tc\tcl2 \v Seg_Inf}
+{\xe \v Seg_Inf}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Clases\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b MainClass}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Documentaci\'F3n de las clases{\tc \v Documentaci\'F3n de las clases}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Referencia de la Clase Seg_Inf.MainClass\par \pard\plain 
+{\tc\tcl2 \v Seg_Inf.MainClass}
+{\xe \v Seg_Inf.MainClass}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b leerASCII} (){\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b leerTexto} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+string {\b cargarArchivo} (string path)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b posicionMayu} (string c)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b posicionMinu} (string c)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+string {\b encriptaCesar} (string texto, int desplazamiento){\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+string {\b desencriptaCesar} (string texto, int desplazamiento){\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+M\'E9todos p\'FAblicos est\'E1ticos\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b Main} (string[] args)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Documentaci\'F3n de las funciones miembro\par
+\pard\plain 
+{\xe \v cargarArchivo\:Seg_Inf::MainClass}
+{\xe \v Seg_Inf::MainClass\:cargarArchivo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+string Seg_Inf.MainClass.cargarArchivo (string  {\i path})}}
+\par
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo para cargar el archivo txt del metodo cesar \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+cierre del documento\par
+retornamos el texto \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   119                                                 \{\par
+  120 \par
+  121             string filename = path;\par
+  122             string texto = "";\par
+  123             FileStream stream = new FileStream (filename, FileMode.Open, FileAccess.Read);\par
+  124             StreamReader reader = new StreamReader (stream);\par
+  125             while (reader.Peek() > -1) \{\par
+  126                 texto+=reader.ReadLine()  + "\\n";\par
+  127             \}\par
+  129             reader.Close();\par
+  131             return texto;\par
+  132         \}//end of cargarArchivo\par
+}
+}
+{\xe \v leerTexto\:Seg_Inf::MainClass}
+{\xe \v Seg_Inf::MainClass\:leerTexto}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Seg_Inf.MainClass.leerTexto ()}}
+\par
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Metodo para leer el texto \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid    68         \{\par
+   69             int codigo=0;\par
+   70             String codigoString = "";\par
+   71             List<string> cadenaCompleta = new List<string>();\par
+   72             try\par
+   73             \{\par
+   74                 Console.WriteLine("Inserta la direccion del archivo .txt");\par
+   75                 string direc = Console.ReadLine();\par
+   76                 using (StreamReader sr = new StreamReader(direc, false))\par
+   77                 \{\par
+   78                     string linea;\par
+   79 \par
+   80                     while ((linea = sr.ReadLine()) != null)\par
+   81                     \{\par
+   82                         for (int i = 0; i < linea.Length;i++ ) \{ \par
+   83                             char temporal = linea[i];\par
+   84                             codigo = (int)temporal;\par
+   85                             codigoString = codigoString + codigo.ToString();\par
+   86                             System.Console.Write(codigo+ " ");\par
+   87                         \}\par
+   88                         cadenaCompleta.Add(codigoString+ " ");\par
+   89                         codigoString = "";\par
+   90                     \}\par
+   91                     System.Console.WriteLine("");\par
+   92                     string resul="";\par
+   93                     //using (System.IO.StreamWriter file = new StreamWriter(direc))\par
+   94                         for (int i = 0; i < cadenaCompleta.Count; i++)\par
+   95                         \{\par
+   96 \par
+   97                             resul += cadenaCompleta[i]+" ";\par
+   98                     //      file.WriteLine(cadenaCompleta[i]);\par
+   99                         \}//end of for\par
+  100                     Console.WriteLine ("\\nIngrese la ruta donde desea guardar su texto cifrado ---> ");\par
+  101                     string fic = Console.ReadLine ();\par
+  102                     System.IO.StreamWriter sw = new System.IO.StreamWriter(fic);\par
+  103                     sw.WriteLine(resul);\par
+  104                     sw.Close();\par
+  105                 \}\par
+  106             \}\par
+  107             catch (Exception)\par
+  108             \{\par
+  109                 Console.WriteLine("El archivo no se puede leer");\par
+  110             \}\par
+  111             Console.ReadKey();\par
+  112         \}\par
+}
+}
+{\xe \v Main\:Seg_Inf::MainClass}
+{\xe \v Seg_Inf::MainClass\:Main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void Seg_Inf.MainClass.Main (string[]  {\i args}){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Menu principal del programa(menu concentrado) \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Codigo Cesar\par
+instancia\par
+menu de opciones\par
+Codigo Morse\par
+Morse - Texto\par
+solicita la direccion del archivo\par
+recibe la direccion\par
+cada palabra ser\'C3\'A1 limitada por espacios\par
+Split separar las palabras y las agrega al arreglo palabras\par
+solicita la direccion del archivo\par
+cada palabra ser\'C3\'A1 limitada por espacios\par
+Split separar las palabras y las agrega al arreglo palabras\par
+sobreescribe en el archivo original\par
+metodo ascii\par
+escitala\par
+solicita la direccion del archivo\par
+cada palabra ser\'C3\'A1 limitada por espacios\par
+Split separar las palabras y las agrega al arreglo palabras\par
+se obtiene la frase del txt\par
+resultado de la encriptar\par
+guardar en archivo de texto\par
+solicita la direccion del archivo\par
+recibe la direccion\par
+cada palabra ser\'C3\'A1 limitada por espacios\par
+Split separar las palabras y las agrega al arreglo palabras\par
+se obtiene la frase del txt\par
+resultado de la encriptacion\par
+guardar en archivo de texto \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   266         \{   \par
+  267             int opi = 0, o=0;\par
+  268             Console.WriteLine ("\\t BIENVENIDO A 4 METODOS DE ENCRIPTACION\\n");\par
+  269             do\{\par
+  270                 Console.WriteLine(">> Seleeciona una opcion:");\par
+  271                 Console.WriteLine("1. Cesar ");\par
+  272                 Console.WriteLine("2. Morse");\par
+  273                 Console.WriteLine("3. ASCII");\par
+  274                 Console.WriteLine("4. Escitala");\par
+  275                 Console.WriteLine("5. Salir");\par
+  276 \par
+  277                 o=Int32.Parse(Console.ReadLine());\par
+  278                 switch(o)\{\par
+  279                   case 1: \par
+  280                     Console.WriteLine ("Bienvenido, con este programa puede encriptar o desencriptar textos con el metodo cesar\\n\\n");\par
+  282                     MainClass cesar = new MainClass ();\par
+  284                     int op = 1,res;\par
+  285                     while (op != 3) \{\par
+  286                         Console.WriteLine ("Menu de opciones del cifrado C\'C3\'A9sar\\n1 = Cifrar\\n2 = Descifrar\\n3 = Salir del programa\\n");\par
+  287                         res = Convert.ToInt32 (Console.ReadLine());\par
+  288                         op = res;\par
+  289                         if (res == 1) \{\par
+  290                             Console.WriteLine ("Ingrese la ruta del archivo");\par
+  291                             string ruta = Console.ReadLine ();\par
+  292                             string texto = cesar.cargarArchivo (ruta);\par
+  293                             Console.WriteLine ("Texto original normal ---> \\n");\par
+  294                             Console.WriteLine (texto);\par
+  295                             Console.WriteLine ("Ingrese el numero de desplazamiento que desea para su cifrado ---> ");\par
+  296                             int desplaza = Convert.ToInt32 (Console.ReadLine());\par
+  297                             string encriptado = cesar.encriptaCesar (texto,desplaza);\par
+  298                             Console.WriteLine ("El texto encriptado es el siguiente\\n\\n\\n"+encriptado);\par
+  299                             Console.WriteLine ("\\nIngrese la ruta donde desea guardar su texto cifrado ---> ");\par
+  300                             string fic = Console.ReadLine ();\par
+  301                             System.IO.StreamWriter sw = new System.IO.StreamWriter(fic);\par
+  302                             sw.WriteLine(encriptado);\par
+  303                             sw.Close();\par
+  304                         \}\par
+  305                         if(res == 2)\{\par
+  306                           \par
+  307                             Console.WriteLine ("Ingrese la ruta del archivo");\par
+  308                             string ruta = Console.ReadLine ();\par
+  309                             string texto = cesar.cargarArchivo (ruta);\par
+  310                             Console.WriteLine ("Texto original normal ---> \\n");\par
+  311                             Console.WriteLine (texto);\par
+  312                             Console.WriteLine ("Ingrese el numero de desplazamiento que desea para su descifrado ---> ");\par
+  313                             int desplaza = Convert.ToInt32 (Console.ReadLine());\par
+  314                             string desencriptado = cesar.desencriptaCesar (texto,desplaza);\par
+  315                             Console.WriteLine ("El texto desencriptado es el siguiente\\n\\n\\n"+desencriptado);\par
+  316                             Console.WriteLine ("\\nIngrese la ruta donde desea guardar su texto descifrado ---> ");\par
+  317                             string fic = Console.ReadLine ();\par
+  318                             System.IO.StreamWriter sw = new System.IO.StreamWriter(fic);\par
+  319                             sw.WriteLine(desencriptado);\par
+  320                             sw.Close();\par
+  321                         \}\par
+  322                         if (res == 3) \{\par
+  323                             Console.WriteLine ("\\nPrograma finalizado exitosamente\\n");\par
+  324                             Console.In.Close();\par
+  325                         \}//end of if\par
+  326                     \}//end of while\par
+  327 \par
+  328                   break;\par
+  329                   case 2: \par
+  330                     int ka=1;\par
+  331                     while(ka == 1)\{\par
+  332                     Console.WriteLine(" --- CODIGO MORSE --- ");\par
+  333                     char []letras = \{ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' \};\par
+  334                     string [] Morse = \{ ".-" , "-..." , "-.-." , "-.." , "." , "..-." , "--." , "...." , ".." , ".---" , "-.-" , ".-.." , "--" , "-." , "---" , ".--." , "--.-" ,  ".-." , "..." , "-" , "..-" , "...-" , ".--" , "-..-" , "-.--" , "--.." , "|" \};\par
+  335                     int opcion;\par
+  336                     string direccion,opc;\par
+  337                     Console.WriteLine("Porfavor selecciona: \\n 1. Morse a Texto \\n 2. Texto a Morse \\n 3. Salir");\par
+  338                     opc=Console.ReadLine();\par
+  339                     opcion = Int32.Parse (opc);\par
+  340 \par
+  341                     if (opcion == 1) \{ \par
+  342                         try\{\par
+  344                             Console.WriteLine("Inserta la direccion de tu archivo .txt");\par
+  345                             direccion = Console.ReadLine (); \par
+  346                             StreamReader lec = new StreamReader(direccion); \par
+  347                             string lineas = lec.ReadLine();\par
+  348                             string r=null;\par
+  349                             while(lineas != null)\{\par
+  350                                 char [] delimitador = \{' '\};\par
+  351                                 string []palabras= lineas.Split(delimitador);\par
+  352                                 for(int j=0; j < palabras.Length;j++)\{\par
+  353                                     string  l = palabras[j];\par
+  354                                     string [] caracter = l.Split(' ');\par
+  355                                     for(int h = 0;h < caracter.Length;h++)\{\par
+  356                                         for(int i = 0;i < Morse.Length;i++)\{\par
+  357                                             if(caracter[h].Equals(Morse[i]))\{\par
+  358                                                 r=r+letras[i];\par
+  359                                             \}//end of if\par
+  360 \par
+  361                                         \}//end of for i\par
+  362                                             r+=" ";\par
+  363                                     \par
+  364                                     \}//end of for h\par
+  365                                     Console.WriteLine(" ");\par
+  366                                 \}//end of palabra*/\par
+  367                                 r=r+" ";\par
+  368                                 lineas=lec.ReadLine();\par
+  369                             \}//end of while\par
+  370                             lec.Close();\par
+  371                             Console.WriteLine ("\\nIngrese la ruta donde desea guardar su texto descifrado ---> ");\par
+  372                             string fic = Console.ReadLine ();\par
+  373                             System.IO.StreamWriter sw = new System.IO.StreamWriter(fic);\par
+  374                             sw.WriteLine(r);\par
+  375                                 sw.Close();\par
+  376 \par
+  377                         \}//end of try\par
+  378                         catch(Exception e)\par
+  379                         \{\par
+  380                             Console.WriteLine ("Exception"+e.Message);\par
+  381                         \}//end of catch\par
+  382                         finally\{\par
+  383                             Console.WriteLine ("Lectura Terminada");\par
+  384                         \}//end of finally\par
+  385 \par
+  386 \par
+  387                     \}//end of if\par
+  388 \par
+  389                     else if (opcion == 2) \{//Texto - Morse\par
+  390 \par
+  391                         try\{\par
+  393                             Console.WriteLine("Inserta la direccion de tu archivo .txt");\par
+  394                             direccion = Console.ReadLine (); //recibe la direccion\par
+  395                             StreamReader lec = new StreamReader(direccion); \par
+  396                             string lineas = lec.ReadLine();\par
+  397 \par
+  398 \par
+  399                             string r=null;\par
+  400                             int i = 0;\par
+  401                             while(lineas != null)\{\par
+  402                                 lineas.ToLower();\par
+  403                                 char [] delimitador = \{' '\};\par
+  404                                 string []palabras= lineas.Split(delimitador);\par
+  405                                 for(int x = 0;x < palabras.Length;x++)\{\par
+  406                                     string letr = palabras[x];\par
+  407                                     for(int y=0;y<letr.Length;y++)\{\par
+  408                                         for(int w =0; w<Morse.Length;w++)\{\par
+  409                                             if(letr[y].Equals(letras[w]))\{\par
+  410                                                 r=r+Morse[w]+" ";\par
+  411                                             \}//end of if\par
+  412                                         \}\par
+  413                                     \}\par
+  414                                 \}\par
+  415 \par
+  416                                 r=r+" ";\par
+  417                                 lineas=lec.ReadLine();\par
+  418                                 i++;\par
+  419                             \}//end of while\par
+  420                             lec.Close();\par
+  422                             Console.WriteLine(r);\par
+  423                             Console.WriteLine("La informaci\'C3\'B3n fue agregada con exito a su archivo original\\n"+r);\par
+  424                             StreamWriter escribir  = new StreamWriter(direccion);\par
+  425                             escribir.WriteLine(r);\par
+  426                             escribir.Close(); \par
+  427 \par
+  428                         \}//end of try\par
+  429                         catch(Exception e)\par
+  430                         \{\par
+  431                             Console.WriteLine ("Exception"+e.Message);\par
+  432                         \}//end of catch\par
+  433                         finally\{\par
+  434                             Console.WriteLine ("Lectura Terminada");\par
+  435                         \}//end of finally\par
+  436 \par
+  437                     \}//end of elseif\par
+  438                     else if(opcion ==3) \{\par
+  439                             break;\par
+  440                     \}//end of else\par
+  441                       Console.WriteLine("\\n -- A que menu desea regresar? \\n1. Principal \\n2. Morse");\par
+  442                         ka=Int32.Parse(Console.ReadLine());\par
+  443                     \}//end of while \par
+  444                   break;\par
+  445                   case 3:\par
+  446                     int d=1;\par
+  447                     while(d==1)\{\par
+  448                     int cii;\par
+  449                     Console.WriteLine(" ---  ASCII  ---");\par
+  450                     Console.WriteLine(" - Selecciona una opcion: \\n 1. Texto a ASCII \\n 2. ASCII a Texto \\n 3. Salir");\par
+  451                     cii = Int32.Parse(Console.ReadLine());\par
+  452                     MainClass ascii = new MainClass();\par
+  453                     if(cii == 1)\{\par
+  454                         ascii.leerTexto();\par
+  455                     \}//end of if\par
+  456                     else if(cii == 2)\{\par
+  457                         ascii.leerASCII();\par
+  458                     \}\par
+  459                     else\{\par
+  460                             break;\par
+  461                     \}\par
+  462                         Console.WriteLine("A qu\'C3\'A9 men\'C3\'BA deseas regresar?? \\n1. ASCII \\n2. Principal");\par
+  463                         d=Int32.Parse(Console.ReadLine());\par
+  464                     \}\par
+  465                     break;\par
+  466                 case 4:\par
+  467                     int fe = 1;\par
+  468                     do\{\par
+  469                         int x=0, y=0;\par
+  470                         char[,] esci;\par
+  471                         int opcion = 0;\par
+  472                         string linea="",direccion;\par
+  473                         Console.WriteLine(" ---> ESCITALA <---");\par
+  474                         Console.WriteLine ("Escribe la altura:");\par
+  475                         x = Int32.Parse (Console.ReadLine());\par
+  476                         Console.WriteLine ("Escribe ancho:");\par
+  477                         y = Int32.Parse (Console.ReadLine());\par
+  478                         esci = new char[x,y];\par
+  479 \par
+  480                         Console.WriteLine ("\\nSelecciona una opcion: \\n1. Cifrar \\n 2. Descifrar");\par
+  481                         opcion = Int32.Parse (Console.ReadLine());\par
+  482                         if(opcion==1)\{\par
+  483                             try\{\par
+  485                                 Console.WriteLine("\\nInserta la direccion de tu archivo .txt");\par
+  486                                 direccion = Console.ReadLine (); //recibe la direccion\par
+  487                                 StreamReader lec = new StreamReader(direccion); \par
+  488                                 string lineas = lec.ReadLine();\par
+  489 \par
+  490                                 string r=null;\par
+  491                                 while(lineas != null)\{\par
+  492                                     lineas.ToLower();\par
+  493                                     char [] delimitador = \{' '\};\par
+  494                                     string []palabras= lineas.Split(delimitador);\par
+  495                                     for(int i = 0;i < palabras.Length ;i++)\{\par
+  496                                         string letr = palabras[i];\par
+  497                                         for(int j=0;j<letr.Length;j++)\{\par
+  498                                             r+= letr[j];\par
+  499                                         \}\par
+  500                                         r=r+" ";\par
+  501                                     \}\par
+  502 \par
+  503                                     lineas=lec.ReadLine();\par
+  504                                 \}//end of while\par
+  505                                 Console.WriteLine ();\par
+  507                                 Console.WriteLine (r);\par
+  508                                 lec.Close();\par
+  509 \par
+  510                                 int contador = 0;\par
+  511 \par
+  512                                 Console.WriteLine("Tama\'C3\'B1o frase: "+r.Length);\par
+  513                                 Console.WriteLine("Alto: "+x+" Ancho: "+y);\par
+  514 \par
+  515                                 for(int i = 0; i < x ; i++)\{\par
+  516                                     for(int j =0; j < y; j++)\{\par
+  517                                         if (contador >= r.Length) \{\par
+  518                                             esci[i,j] = ' ';\par
+  519                                         \} else \{\par
+  520                                             esci[i,j] = r[contador];\par
+  521                                         \}//end of else\par
+  522                                         contador++;\par
+  523                                     \}//end of for j\par
+  524                                 \}//end of for i\par
+  525 \par
+  526                                 for(int i=0; i<y;i++)\{\par
+  527                                     for(int j=0;j<x;j++)\{\par
+  528                                         linea += esci [j, i];\par
+  529                                     \}\par
+  530                                 \}\par
+  531                                 Console.WriteLine ();\par
+  533                                 Console.WriteLine(linea);\par
+  534 \par
+  536                                 Console.WriteLine ("\\nIngrese la ruta donde desea guardar su texto cifrado ---> ");\par
+  537                                 string fic = Console.ReadLine ();\par
+  538                                 System.IO.StreamWriter sw = new System.IO.StreamWriter(fic);\par
+  539                                 sw.WriteLine(linea);\par
+  540                                 sw.Close();\par
+  541 \par
+  542                             \}//end of try\par
+  543                             catch(Exception e)\par
+  544                             \{\par
+  545                                 Console.WriteLine ("Exception"+e.Message);\par
+  546                             \}//end of catch\par
+  547                             finally\{\par
+  548                                 Console.WriteLine ("Lectura Terminada");\par
+  549                             \}//end of finally\par
+  550 \par
+  551 \par
+  552                         \}//end of if texto-escitala\par
+  553                         else if(opcion == 2)\{\par
+  554                             try\{\par
+  556                                 Console.WriteLine("Inserta la direccion de tu archivo .txt");\par
+  558                                 direccion = Console.ReadLine (); \par
+  559                                 StreamReader lec = new StreamReader(direccion); \par
+  560                                 string lineas = lec.ReadLine();\par
+  561 \par
+  562                                 string r=null;\par
+  563                                 while(lineas != null)\{\par
+  564                                     lineas.ToLower();\par
+  566                                     char [] delimitador = \{' '\};\par
+  568                                     string []palabras= lineas.Split(delimitador);\par
+  569                                     for(int i = 0;i < palabras.Length ;i++)\{\par
+  570                                         string letr = palabras[i];\par
+  571                                         for(int j=0;j<letr.Length;j++)\{\par
+  572                                             r+= letr[j];\par
+  573                                         \}\par
+  574                                         r=r+" ";\par
+  575                                     \}\par
+  576 \par
+  577                                     lineas=lec.ReadLine();\par
+  578                                 \}//end of while\par
+  579                                 Console.WriteLine ();\par
+  581                                 Console.WriteLine (r);\par
+  582                                 lec.Close();\par
+  583 \par
+  584                                 int contador = 0;\par
+  585                                 for(int i = 0; i < y ; i++)\{\par
+  586                                     for(int j =0; j < x; j++)\{\par
+  587                                         esci[j,i] = r[contador];\par
+  588                                         contador++;\par
+  589                                     \}//end of for j\par
+  590                                 \}//end of for i\par
+  591 \par
+  592                                 for(int i=0; i<x;i++)\{\par
+  593                                     for(int j=0;j<y;j++)\{\par
+  594                                         linea += esci [i, j];\par
+  595                                     \}\par
+  596                                 \}\par
+  597                                 Console.WriteLine ();\par
+  599                                 Console.WriteLine(linea);\par
+  600 \par
+  602                                 Console.WriteLine ("\\nIngrese la ruta donde desea guardar su texto cifrado ---> ");\par
+  603                                 string fic = Console.ReadLine ();\par
+  604                                 System.IO.StreamWriter sw = new System.IO.StreamWriter(fic);\par
+  605                                 sw.WriteLine(linea);\par
+  606                                 sw.Close();\par
+  607 \par
+  608                             \}//end of try\par
+  609                             catch(Exception e)\par
+  610                             \{\par
+  611                                 Console.WriteLine ("Exception"+e.Message);\par
+  612                             \}//end of catch\par
+  613                             finally\{\par
+  614                                 Console.WriteLine ("\\nLectura Terminada");\par
+  615                             \}//end of finally\par
+  616 \par
+  617                         \}\par
+  618                         Console.WriteLine("\\n A que menu desea regresar \\n 1.Escitala \\n 2.Menu Principal ");\par
+  619                         fe=Int32.Parse(Console.ReadLine());\par
+  620                     \}while(fe==1);//end of while\par
+  621                      \par
+  622                     break;\par
+  623                 case 5:\par
+  624                     Environment.Exit(0);\par
+  625                     break;\par
+  626                 \}//end of switch\par
+  627 \par
+  628                 Console.WriteLine("Qu\'C3\'A9 desea hacer??  \\n 1. Ir men\'C3\'BA principal  \\t2.Salir");\par
+  629                 opi=Int32.Parse(Console.ReadLine());\par
+  630 \par
+  631             \}while(opi == 1);\par
+  632         \}\par
+}
+}
+{\xe \v posicionMayu\:Seg_Inf::MainClass}
+{\xe \v Seg_Inf::MainClass\:posicionMayu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Seg_Inf.MainClass.posicionMayu (string  {\i c})}}
+\par
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo para obtener la posicion de una letra en el arreglo de mayusculas \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   135                                           \{\par
+  136             for(int i = 0; i <mayu.Length; i++)\{\par
+  137                 if (mayu [i] == c) \{\par
+  138                     return i;\par
+  139                 \}//end of if\par
+  140             \}//end of ofr\par
+  141             return -1;\par
+  142         \}//end of posicion mayusculas\par
+}
+}
+{\xe \v posicionMinu\:Seg_Inf::MainClass}
+{\xe \v Seg_Inf::MainClass\:posicionMinu}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int Seg_Inf.MainClass.posicionMinu (string  {\i c})}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+metodo para obtenrr la posicion de una letra en el arreglo de minusculas \par
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid   145                                           \{\par
+  146             for(int i = 0; i <minu.Length; i++)\{\par
+  147                 if (minu[i] == c) \{\par
+  148                     return i;\par
+  149                 \}//end of if\par
+  150             \}//end of ofr\par
+  151             return -1;\par
+  152         \}//end of posicion minusculas\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+La documentaci\'F3n para esta clase fue generada a partir del siguiente fichero:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+Program.cs\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CDndice\par 
+\pard\plain 
+{\tc \v \'CDndice}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
